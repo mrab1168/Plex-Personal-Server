@@ -20,3 +20,6 @@ The following is the current workflow that I have
 These are the enhavments that I want to work on:
 
 a) have rclone/Sonarr only upload at night at 2:30 AM PST (UTC+0 7:30AM)
+b) using personal domain name, create a login page
+c) be able to VNC troubleshoot via web
+d) 
