@@ -22,4 +22,6 @@ These are the enhavments that I want to work on:
 a) have rclone/Sonarr only upload at night at 2:30 AM PST (UTC+0 7:30AM)
 b) using personal domain name, create a login page
 c) be able to VNC troubleshoot via web
-d) 
+d) Learn rclone cache command. May solve a
+e) nssm rclone mount changes log log each day
+f) find out way Rick and Moprty wasnt wortking on MAy 18 7-8 PM
