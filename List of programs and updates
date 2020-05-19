@@ -1,0 +1,22 @@
+The following is the current workflow that I have
+
+1) Ombi to request media 
+2) Sonarr* get that request and quality etc. 
+3) Sonarr adds it to the list of TV Shows
+4) Jackett finds the torrent and sends it Sonarr for processing
+5) Sonarr sends the torrent mag link to Deluge
+6) Since the API knows that this is from Sonarr, it takes the the information that is different for Sonarr i.e. where the file should be on seed in this case X drive (If it was from Radarr it would be labeled as such and sent to the local B drive)
+7) Plex and sonarr gets that information and sends a copy to my root dir..
+  a) for TV Shows its M:/PLex/TV Shows
+  b) for Movies its M:/Plex/Movies
+8) Root dir is a FUSE mounted rclone program that is an encrpytted G Drive
+9) -> uploads encrypted to Google Drive --> Plx scans and finds it
+
+
+
+
+*Sonarr is used for TV Shows. Radarr is the movie equivalent
+
+These are the enhavments that I want to work on:
+
+a) have rclone/Sonarr only upload at night at 2:30 AM PST (UTC+0 7:30AM)
