@@ -1,4 +1,6 @@
-> Rclone mount isrun through nssm service
+> Rclone mount is run through nssm service
  
-** NSSM **
+[NSSM](https://nssm.cc) - non sucking service manager
+
+
 
