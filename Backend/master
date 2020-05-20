@@ -1,1 +1,5 @@
 Work in Progress
+
+The majority of the back end is run through C:\rclone & C:\ProgramData\NzbDrone\bin    Long term plans are to contain it on a non C drive since the new C drive is NVMe and the speed is not needed at this time
+
+
