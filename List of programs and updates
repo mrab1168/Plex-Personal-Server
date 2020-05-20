@@ -12,6 +12,7 @@ The following is the current workflow that I have
 8) Root dir is a FUSE mounted rclone program that is an encrpytted G Drive
 9) -> uploads encrypted to Google Drive --> Plx scans and finds it
 
+Once I fully install my NVMe SSD and move a 1TB drive to my main driver with use the 1TB as a cache
 
 
 
@@ -25,3 +26,6 @@ c) be able to VNC troubleshoot via web
 d) Learn rclone cache command. May solve a
 e) nssm rclone mount changes log log each day
 f) find out way Rick and Moprty wasnt wortking on MAy 18 7-8 PM
+g) Change to a Liunux base system
+  i) drive pooling the rclone wiht a local drive to cache
+  
