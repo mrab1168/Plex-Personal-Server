@@ -4,3 +4,6 @@
 
 NSSM is desided as a root level command line point
 
+The nssm code that I use is 
+
+> mount --allow-other --dir-cache-time 1h --drive-chunk-size 256M --log-file=logMay18.txt --log-level DEBUG --buffer-size 512M--vfs-read-chunk-size 64M --vfs-read-chunk-size-limit off Google_Crypt: M: --config "C:\Users\Matt\.rclone.conf" 
